@@ -12,7 +12,7 @@ class Scraper
     #have keys name, location, and profile url
     html = open(index_url)
     doc = Nokogiri::HTML(html)
-    doc.css(".student-card")
+    student_cards = doc.css(".student-card")
     binding.pry
     
   end
