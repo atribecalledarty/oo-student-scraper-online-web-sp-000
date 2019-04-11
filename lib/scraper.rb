@@ -9,7 +9,7 @@ class Scraper
 
   def self.scrape_index_page(index_url) #return an array of hashes, each has represent a student
     #have keys name, location, and profile url
-    doc = Nokogiri::
+    doc = Nokogiri::HTML(index_url)
     
   end
 
