@@ -1,7 +1,7 @@
 require 'open-uri'
 require 'nokogiri'
 require 'pry'
-require_relative '../fixtures/student-site/index.html'
+#require_relative '../fixtures/student-site/index.html'
 
 class Scraper
   #we don't to create instances of Scraper that maintain their own attributes
