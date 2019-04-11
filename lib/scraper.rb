@@ -24,6 +24,7 @@ class Scraper
     
     #name: student_card.css("h4.student-name").text
     #location: student_card.css("p.student-location").text
+    #url: student_card.css()
     binding.pry
     
     
