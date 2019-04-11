@@ -11,6 +11,7 @@ class Scraper
     #have keys name, location, and profile url
     doc = Nokogiri::HTML(index_url)
     
+    
   end
 
   def self.scrape_profile_page(profile_url)
