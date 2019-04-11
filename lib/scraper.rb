@@ -23,7 +23,7 @@ class Scraper
     end
     
     #name: student_card.css("h4.student-name").text
-    #location: student_card.css("")
+    #location: student_card.css("p.student-location").text
     binding.pry
     
     
