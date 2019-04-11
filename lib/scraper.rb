@@ -17,8 +17,8 @@ class Scraper
     student_cards.each do |student_card|
       student_hash = {
         :name => student_card.css("h4.student-name").text,
-        :location => "",
-        :profile_url => ""
+        :location => student_card.css("p.student-location").text,
+        :profile_url => student_card.css("a").attribute("href").value
       }
     end
     
